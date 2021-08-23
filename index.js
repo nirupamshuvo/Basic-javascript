@@ -78,7 +78,21 @@ sub =  num1 - num2;
 
 sub = document.write(num1+" - "+num2+" = "+sub+"</br>");
 
+
+
+var base =  parseFloat (prompt ("Enter Base = "));
+var height =  parseFloat (prompt ("Enter Height = "));
+
+var area = base*height;
+
+document.write("Area = "+area);
+
+
+
+var farn = parseFloat(prompt("Enter Farenhite value : "));
+
+var cels = (farn-32) * (5/9);
+
+document.write("Celsius = "+ cels);
+
 */
-
-
-
